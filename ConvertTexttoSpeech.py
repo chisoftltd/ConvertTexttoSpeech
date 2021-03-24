@@ -12,7 +12,6 @@ root.configure(bg='ghost white')
 root.title("Chisoft - TEXT TO SPEECH")
 
 
-
 Label(root, text = "TEXT_TO_SPEECH", font = "arial 20 bold", bg='white smoke').pack()
 Label(text ="Chisoft", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
 
