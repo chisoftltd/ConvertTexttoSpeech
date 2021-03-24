@@ -14,7 +14,7 @@ root.title("Chisoft - TEXT TO SPEECH")
 
 
 Label(root, text = "TEXT_TO_SPEECH", font = "arial 20 bold", bg='white smoke').pack()
-Label(text ="DataFlair", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
+Label(text ="Chisoft", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
 
 Msg = StringVar()
 Label(root,text ="Enter Text", font = 'arial 15 bold', bg ='white smoke').place(x=20,y=60)
@@ -27,8 +27,8 @@ entry_field.place(x=20,y=100)
 def Text_to_speech():
     Message = entry_field.get()
     speech = gTTS(text = Message)
-    speech.save('DataFlair.mp3')
-    playsound('DataFlair.mp3')
+    speech.save('Chisoft.mp3')
+    playsound('Chisoft.mp3')
 
 
 # Function to Exit
